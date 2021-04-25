@@ -1,0 +1,1 @@
+Este é o repositorio de estudos do curso Web Moderno da COD3R. Criando com o intuito de armazenar os exemplos e as atividades propostas dentro do curso.
