@@ -1,0 +1,20 @@
+{
+  "name": "funcionarios",
+  "version": "1.0.0",
+  "description": "Projetinho de teste utilizando o NPM init",
+  "main": "outro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "programacao",
+    "JS",
+    "Node",
+    "NPM"
+  ],
+  "author": "randwesley",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
