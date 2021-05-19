@@ -6,11 +6,33 @@
     <title>Especificidade CSS</title>
     <style>
         /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/Specificity */
+        /* 
+            Ordem de especificades - Em linhas gerais
+        1. Regras com !important
+        2. seletores mais especificos
+        3. o ultimo processado tem prioridade
+        */
+        p {
+            background-color: #aaa;
+        }
+
+        .observacao {
+            background-color: #5f5;
+            border: dashed 5px;
+            padding: 20px!important;
+            font-size: 40px;
+        }
+
+        p.observacao { /*Tipo mais especifico*/
+            padding: 2px;
+            background: linear-gradient(to right, red, pink);
+        }
     </style>
 </head>
 
 <body>
     <p class='observacao'>Olha essa observação!!!!</p>
+    <p>aaa</p>
 </body>
 
 </html>
